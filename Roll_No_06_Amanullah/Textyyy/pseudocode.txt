@@ -1,0 +1,66 @@
+START program  
+
+1. ask user to enter the name of the input txt file  
+   - check if it has `.txt` at the end
+   - if not, warn em 
+   - try to open the file in read mode  
+   - if it's all good, read ALL the contents into a variable called `textyy`, or like a list or parapgraph or whatever fits
+
+2. define function to count words  
+   - split the text by spaces (or tabs/newlines etc)  
+   - keep a count of actual word-looking things
+   - return that count
+
+3. make a function to count chars (yes, even spaces)  
+   - just loop and count OR use len()
+
+4. count spaces  
+   - loop through each char  
+   - if it's ' ', add to counter
+
+5. commas?  
+   - if char == ',' - boom, count++
+
+6. same for periods  
+   - look for '.' and count those too
+
+7. for sentence counting:  
+   - count '.', '?' and '!' as sentence enders  
+   - might not be 100% accurate but works ok for basic text
+
+8. vowels time  
+   - loop through all chars  
+   - if char is a, e, i, o, u (also their CAPS versions) - count it  
+
+9. digits counting  
+   - if char is a number (0–9), count it  
+   - isdigit() could help but u can check manually too  
+
+10. count UPPERCASE letters  
+    - if 'A' <= char <= 'Z' - count++ 
+
+11. count lowercase too  
+    - same thing but 'a' to 'z'  
+
+12. now special characters
+    - loop through every char  
+    - if it’s NOT a letter, digit, space, tab, newline, or regular punc  
+      - count it as special  
+      - maybe collect them in a set for listing later  
+
+13. store all results somewhere, like a dict or separate vars  
+
+14. print results to the terminal if needed (make it readable tho)  
+    - use f-strings or just string concat if fancy  
+    - include all counts, maybe in bulleted or labeled style
+
+15. also open a new file called output.txt  
+    - write the same report there too  
+    - so it’s saved somewhere, not just in console  
+
+16. finally, close both files (if not already auto-closed)
+
+END program  
+
+
+I mean above is basic outline, we r not allowed to use built in funcs, so we will use unicodes now simply.

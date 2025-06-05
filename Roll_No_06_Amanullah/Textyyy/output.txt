@@ -1,0 +1,17 @@
+Hey! Here's a friendly analysis of your file's contents:
+
+- WORDS: Sir! You wrote 398 words.
+- CHARACTERS: There are 2734 characters in total, including spaces and punctuation.
+- SPACES: Sir! You used 430 spaces for word separation.
+- COMMAS: Found 20 commas, nice use of pauses!
+- PERIODS: There are 46 periods ending sentences.
+- SENTENCES: Counting sentences ending with '.', '!', or '?', you have 64 total.
+- VOWELS: Your text has 702 vowels, quite melodically vowellyy!
+- DIGITS: Spotted 42 digits.
+- UPPERCASE LETTERS: 139 uppercase letters.
+- LOWERCASE LETTERS: 1761 lowercase leters.
+- SPECIAL CHARACTERS: Total special characters count is 275.
+
+  Special characters used: !, ", #, $, %, &, ', (, ), *, +, ,, -, ., /, :, ;, <, =, >, ?, @, [, \, ], ^, _, `, {, |, }, ~, ¢, £, ¥, §, ª, ¯, °, ±, ¶, º, ¼, ½, ¾, ¿, ×, ç, ñ, ÷, π, –, —, “, ”, •, ₩, €, ₹, ∂, ∆, ∇, ∏, ∑, √, ∞, ∫, ≈, ≠, ≤, ≥, ツ, 🎉, 🐍, 👀, 💡, 🔥, 😀, 🚀
+
+Thanks for using my code, hope this gives u breif oversight of txt file u were lookin for!

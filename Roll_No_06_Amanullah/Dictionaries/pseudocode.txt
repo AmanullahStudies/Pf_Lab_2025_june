@@ -1,0 +1,83 @@
+START program
+
+1. ask user for input .txt file name  
+   - check if it ends with `.txt`  
+   - if not, give a warning and ask again  
+   - try opening the file in read mode  
+   - if it opens fine, read *everything* into a variable called `textyy`  
+     (could be a string or list – up to us)  
+
+2. make a function to count words  
+   - loop through each char  
+   - detect where a word starts and ends  
+   - use space/tab/newline/etc as word bondaries  
+   - keep track of actual word-like things (no empty stuf)  
+   - return the total word count  
+
+3. make a function to count all characters  
+   - just go through every char and count it  
+   - i mean, even spaces and newlines  
+   - could use a loop or just `len(textyy)`  
+   - but we do it manually using loop and counter  
+
+4. make a function to count spaces  
+   - loop through textyy  
+   - if char is space `' '`, count++  
+
+5. count commas  
+   - check for char `','` , count it  
+
+6. periods too  
+   - check for char `'.'`, count++  againnnnnnnn
+
+7. sentence count  
+   - look for `.`, `?`, `!` → sentence enders  
+   - count each of those  
+   - not perfect but works good enough  
+
+8. count vowels  
+   - loop every char  
+   - if it's in `a, e, i, o, u` or their capital versions  
+     (can use Unicode check or manual list)  
+   - count++  
+
+9. count digits  
+   - if char is btw Unicode 48–57 (i.e. '0' to '9')  
+   - count++  
+
+10. uppercase letters  
+    - check if char is btw Unicode 65–90 ('A' to 'Z')  
+    - count++  
+
+11. lowercase letters  
+    - check if char is btw Unicode 97–122 ('a' to 'z')  
+    - count++  
+
+12. special characters  
+    - any char that is NOT:
+      - a letter (Unicode ranges)
+      - a digit (48–57)
+      - whitespace (space/tab/newline)
+    - count it  , using the legacy count ++ ahainnn
+    - maybe collect in a set to get unique ones  
+
+13. store all results  
+    - use a dictionary to keep counts  
+    - maybe have another one for lists (e.g., list of vowels, specials etc.)  
+
+14. print everything nicely terminaly
+    - use f-strings or string concat  
+    - clean layout: labels + counts  
+    - might skip this step, as not required though!
+
+15. write same stuff to a new file `output.txt`  
+    - save both summary and maybe detailed lists too  
+    - format it same way as terminal print  
+
+16. done – files close automatically (or use `with open`)  
+
+END program
+
+
+
+I mean above is basic outline, we r not allowed to use built in funcs, so we will use unicodes now simply. also i might used json.stringify, or whatever equavalent of it is in python, as in javascript we use JSON.stringify. but i will also leave the unformatted file wrting code too, if json pretty dumping is not allowed, just ina case
